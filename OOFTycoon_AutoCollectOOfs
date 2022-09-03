@@ -14,6 +14,14 @@ made by juywvm
 
 
 
+getgenv().LoopCollect = false  
+
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/OOFTycoon_AutoCollectOOfs'))()
+
+
+
+
 ]]
 
 local batuswashere = require(game:GetService("ReplicatedStorage").Modules.MyData);
