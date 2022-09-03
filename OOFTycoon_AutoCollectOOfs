@@ -1,0 +1,45 @@
+--[[
+
+████████╗██╗░░██╗███████╗██╗░░░██╗░█████╗░░█████╗░██╗░░░░░██╗░░░░░███╗░░░███╗███████╗██████╗░░█████╗░████████╗██╗░░░██╗░██████╗
+╚══██╔══╝██║░░██║██╔════╝╚██╗░██╔╝██╔══██╗██╔══██╗██║░░░░░██║░░░░░████╗░████║██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██║░░░██║██╔════╝
+░░░██║░░░███████║█████╗░░░╚████╔╝░██║░░╚═╝███████║██║░░░░░██║░░░░░██╔████╔██║█████╗░░██████╦╝███████║░░░██║░░░██║░░░██║╚█████╗░
+░░░██║░░░██╔══██║██╔══╝░░░░╚██╔╝░░██║░░██╗██╔══██║██║░░░░░██║░░░░░██║╚██╔╝██║██╔══╝░░██╔══██╗██╔══██║░░░██║░░░██║░░░██║░╚═══██╗
+░░░██║░░░██║░░██║███████╗░░░██║░░░╚█████╔╝██║░░██║███████╗███████╗██║░╚═╝░██║███████╗██████╦╝██║░░██║░░░██║░░░╚██████╔╝██████╔╝
+░░░╚═╝░░░╚═╝░░╚═╝╚══════╝░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝╚══════╝╚══════╝╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░░╚═════╝░╚═════╝░
+
+
+
+OOF Tycoon Auto Collect Script, please use this with loadstring else it wont work properly.
+made by juywvm 
+
+
+
+]]
+
+local batuswashere = require(game:GetService("ReplicatedStorage").Modules.MyData);
+local batusswashere = batuswashere.Get_StatObject("MyPlot").Value;
+local batussswashere = game:GetService("Workspace").Plots[batusswashere].Oofs
+
+
+
+if not getgenv().LoopCollect then
+    for _,v in pairs(batussswashere:GetDescendants()) do
+if v:IsA("Part") and v.Name == "OOFBALL" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+wait()
+end
+end
+end
+
+if getgenv().LoopCollect then
+    while getgenv().LoopCollect do
+        wait()
+        for _,v in pairs(batussswashere:GetDescendants()) do
+            wait()
+if v:IsA("Part") and v.Name == "OOFBALL" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+wait()
+end
+end
+end
+end
