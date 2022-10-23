@@ -1,4 +1,16 @@
---made by batusd on V3RM
+--[[
+made by batusd on V3RM
+
+execute with loadstring please!
+Example:
+
+getgenv().LoopAutofarm = true
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/evadeticketfarm.lua'),true))()
+
+opensourceee!!!
+
+]]
+
 local nigga = game:GetService("Players").LocalPlayer
 
 woah = Instance.new('Part', game.Workspace)
@@ -68,5 +80,14 @@ WEWEWEWEWEWEWEWWEWEWBATUYSWASHERE.Anchored = true
 WEWEWEWEWEWEWEWWEWEWBATUYSWASHERE.Transparency = 0
 WEWEWEWEWEWEWEWWEWEWBATUYSWASHERE.CFrame = CFrame.new(308, -397, 544)
 end
+    end
+end)
+
+
+spawn(function() 
+    wait(1)
+    while getgenv().LoopAutofarm do --for safety
+        wait(10)
+        nigga.Character.HumanoidRootPart.CFrame = CFrame.new(308, -397, 544)
     end
 end)
