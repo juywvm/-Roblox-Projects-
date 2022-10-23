@@ -38,12 +38,15 @@ while getgenv().LoopAutofarm do --autofarm here feel free to skid in your projec
     wait(1)
     
 for i,v in pairs(game:GetService("Workspace").Game.Effects.Tickets:GetChildren()) do
+    if v.HumanoidRootPart ~= nil and game.Players.LocalPlayer:GetAttribute('InMenu') ~= true then
     nigga.Character.HumanoidRootPart.CFrame = CFrame.new(308, -397, 544)
     wait(1)
-    nigga.Character.HumanoidRootPart.CFrame = CFrame.new(v.HumanoidRootPart.Position)
+    nigga.Character.HumanoidRootPart.CFrame = CFrame.new(v:WaitForChild('HumanoidRootPart').Position)
     wait(0.5)
     nigga.Character.HumanoidRootPart.CFrame = CFrame.new(308, -397, 544)
     wait(1)
+    
+    end
     
     end
 end
