@@ -25,7 +25,7 @@ USE THIS:
 
 
 getgenv().wbatus = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/%7C_Retail_Tycoon_2__Pumpkin_AutoFarm_%7C"))()
+loadstring(game:HttpGet("https://github.com/juywvm/-Roblox-Projects-/blob/main/retail_tycoon_2_pumpkin_autofarm"))()
 
 
 
