@@ -1,0 +1,114 @@
+--[[ 
+
+made by batusd3009 
+
+
+Retail Tycoon 2 Pumpkin AutoFarm
+
+Use this script until hallowen event ends.
+
+Game Link: www.roblox.com/games/5865858426
+
+
+
+
+
+Please use this script with loadstring and settings else it wont work!
+
+
+
+
+DONT USE RAW OR IT WONT WORK.
+
+
+USE THIS:
+
+
+getgenv().wbatus = true
+(loadstring)
+
+
+
+
+btw not opensource sorry some ppl copying my scripts without giving credits :(  -if you need source: blood of batus#9999
+]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local v0 = string.char;
+local v1 = string.byte;
+local v2 = string.sub;
+local v3 = bit32 or bit;
+local v4 = v3.bxor or v3.bxor;
+local v5 = table.concat;
+local v6 = table.insert;
+local function v7(v16, v17)
+	local v18 = {};
+	for v21 = 1, #v16 do
+		v6(v18, v0(v4(v1(v2(v16, v21, v21 + 1)), v1(v2(v17, 1 + ((v21 - 1) % #v17), 1 + ((v21 - 1) % #v17) + 1))) % 256));
+	end
+	return v5(v18);
+end
+local v8 = game:GetService(v7("\177\216\198\225\162\150\214\215\239", "\230\183\180\138\209")).Map.Holiday.Items;
+local v9 = game:GetService(v7("\125\29\138\54\242\20\94", "\45\113\235\79\151\102")).LocalPlayer;
+local v10 = 1772.2 - (565 + 1207);
+local v11 = Instance.new(v7("\208\116\69\56\124", "\131\27\48\86\24\53\66"), workspace);
+v11.v12 = 1.5 + 0;
+v11.v13 = 0.15 + 0;
+v11.v14 = v7("\231\5\255\33\230\20\226\52\252\3\189\111\186\86\176\112\162\81\178\113\166\87", "\149\103\135\64");
+v11.v15 = true;
+v11:Destroy();
+game.StarterGui:SetCore(v7("\196\40\0\120\112\18\227\36\8\117\93\28\227\36\1\114", "\151\77\110\28\62\125"), {[v7("\39\84\153\137\52", "\115\61\237\229\81\177\117")]=v7("\166\10\136\190\252\57\110\10\169\10\152\174\175\63\36\26\251\82", "\203\107\236\219\220\91\23\42"),[v7("\238\119\42\98", "\186\18\82\22\117\211\218")]=v7("\203\161\169\21\244\186\232\29\240\187\232\14\236\160\166\28\191\164\177\91\236\170\186\18\239\189\233", "\159\201\200\123"),[v7("\147\87\116\56", "\218\52\27\86\49\208\19")]=v7("\253\209\168\126\192\6\234\199\185\123\137\90\160\128\224\38\138\65\187\139\228\40\129", "\143\179\208\31\179\117"),[v7("\82\49\151\114\17\95\120\120", "\22\68\229\19\101\54\23")]=(141158 - 41159)});
+while getgenv().nigabatus do
+	for v19, v20 in pairs(v8:GetDescendants()) do
+		if ((v20.Name == v7("\104\67\73\5\89\81\88", "\56\54\36\117\50")) and (v20.Transparency ~= 1)) then
+			local v22 = 0 + 0;
+			local v23;
+			local v24;
+			while true do
+				if (v22 == (0 + 0)) then
+					v23 = 0 - 0;
+					v24 = nil;
+					v22 = 1 - 0;
+				end
+				if (v22 == (3 - 2)) then
+					while true do
+						if (v23 == 1) then
+							v24:Play();
+							v24.Completed:Wait();
+							break;
+						end
+						if ((0 - 0) == v23) then
+							local v25 = 0 + 0;
+							while true do
+								if (v25 == (0 + 0)) then
+									CFrameEnd = v20.CFrame;
+									v24 = game:GetService(v7("\154\104\20\237\50\215\171\109\7\225\63\225", "\206\31\113\136\92\132")):Create(v9.Character.HumanoidRootPart, TweenInfo.new(v10), {[v7("\228\108\153\196\90\67", "\167\42\235\165\55\38")]=CFrameEnd});
+									v25 = 1417 - (505 + 911);
+								end
+								if (v25 == (1 - 0)) then
+									v23 = 2 - 1;
+									break;
+								end
+							end
+						end
+					end
+					break;
+				end
+			end
+		end
+	end
+end
