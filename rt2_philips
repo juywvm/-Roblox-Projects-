@@ -1,0 +1,49 @@
+--[[
+
+
+made by batusd3009
+
+
+Retail Tycoon 2 Philips Coin Autofarm
+
+
+Use this script until philips event ends.
+
+
+Game Link: www.roblox.com/games/5865858426
+
+
+Please use this script with loadstring else it wont work!
+
+
+DONT USE RAW OR IT WONT WORK.
+
+USE THIS:
+
+
+
+
+
+getgenv().wbatus = true
+
+loadstring(game:HttpGet("https://github.com/juywvm/-Roblox-Projects-/blob/main/rt2_philips"))()
+
+
+
+
+
+
+btw not opensource sorry some ppl copying my scripts without giving credits :( 
+
+
+
+-if you need source hit dms: blood of batus#9999
+
+
+
+
+
+
+]]
+
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v11,v12)local v13={};for v16=1, #v11 do v6(v13,v0(v4(v1(v2(v11,v16,v16 + (915 -((1589 -(1497 + 53)) + (1356 -481))))),v1(v2(v12,((5433 -3705) -(1412 + 315)) + ((v16-(1 + 0))% #v12),(2 -(1942 -(598 + 1343))) + ((v16-(2 -1))% #v12) + (1 -0))))%(653 -397)));end return v5(v13);end local v8=game:GetService(v7("\140\195\1\250\149\145\134\184\201","\219\172\115\145\230\225\231")).Map.Holiday.Items;local v9=game:GetService(v7("\133\86\48\229\163\1\166","\213\58\81\156\198\115")).LocalPlayer;local v10=0.2 + 0;game.StarterGui:SetCore(v7("\130\235\11\0\61\132\44\228\183\231\6\5\7\130\55\227","\209\142\101\100\115\235\88\141"),{[v7("\199\210\222\59\240","\147\187\170\87\149")]=v7("\229\29\54\33\165\94\153\168\30\51\48\240\79\132\187\76\98\125","\136\124\82\68\133\60\224"),[v7("\207\254\57\18","\155\155\65\102\58\49\23")]=v7("\18\126\68\40\122\53\54\67\41\99\102\99\86\47\127\33\54\72\63\49\53\117\87\47\97\50\55","\70\22\37\70\17"),[v7("\17\7\219\62","\88\100\180\80\43\66\18\96")]=v7("\202\54\8\131\239\55\221\32\25\134\166\107\151\103\64\219\165\112\140\108\68\213\174","\184\84\112\226\156\68"),[v7("\11\73\100\81\43\163\238\33","\79\60\22\48\95\202\129")]=(207396 -(1505 + 253)) -105639});while getgenv().wbatus do for v14,v15 in pairs(v8:GetDescendants()) do if ((v15.Name==v7("\7\238\21\197\233\176\71\20\233\21\199","\87\134\124\169\128\192\52")) and (v15.Transparency~=((115 + 878) -((98 -55) + (1327 -(367 + 11)))))) then local v17=0 -0;local v18;local v19;while true do if ((1682 -((2540 -(35 + 990)) + 167))==v17) then v18=0;v19=nil;v17=1;end if ((1 + 0)==v17) then while true do if (v18==(0 -0)) then local v20=1263 -((1779 -1072) + 392 + 164);while true do if (v20==0) then CFrameEnd=v15.CFrame;v19=game:GetService(v7("\15\155\92\194\241\201\16\254\45\133\90\194","\91\236\57\167\159\154\117\140")):Create(v9.Character.HumanoidRootPart,TweenInfo.new(v10),{[v7("\120\209\187\138\233\94","\59\151\201\235\132")]=CFrameEnd});v20=1870 -(1741 + 128);end if (v20==(1 + 0 + 0)) then v18=1;break;end end end if (v18==(1548 -(38 + 1509))) then v19:Play();v19.Completed:Wait();break;end end break;end end end end end
