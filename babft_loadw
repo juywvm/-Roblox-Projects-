@@ -1,0 +1,3 @@
+getgenv().LastUpdateBabft = "9.11.2022 (dd/mm/yy)"
+getgenv().AnnounceText1 = "AnnounnceText 1"
+getgenv().UpdateLogText1 = "UpdateLogText 1"
