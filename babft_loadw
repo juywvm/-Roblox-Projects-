@@ -2,7 +2,8 @@ getgenv().LastUpdateBabft = "9.11.2022 (dd/mm/yy)"
 
 
 getgenv().AnnounceText1 = "[+] New Update Released!"
-getgenv().AnnounceText2 = "[-] Im sorry"
+getgenv().AnnounceText2 = "[-] Im sorry but i cant make quest farm since its impossible,"
+getgenv().AnnounceText3 = "you can't get rewards multiple times. So theres no point."
 
-getgenv().UpdateLogText1 = "[+] Added Quest Page"
-getgenv().UpdateLogText2 = "[+] Home Page with Update/Ann System"
+getgenv().UpdateLogText1 = "[+] Added Quest Page (you can complate quests automaticly!)"
+getgenv().UpdateLogText2 = "[+] Added Home Page with Update/Announcement System"
