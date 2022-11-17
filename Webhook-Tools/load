@@ -1,0 +1,31 @@
+getgenv().Exploitget = "nil"
+
+if syn then
+    getgenv().Exploitget = "Synapse X"
+    getgenv().Numberww = 6641087361
+elseif KRNL_LOADED then
+    getgenv().Exploitget = "Krnl"
+    getgenv().Numberww = 6641087361
+elseif gethui() then
+    getgenv().Exploitget = "Script-Ware"
+    getgenv().Numberww = 6641087361
+else
+    getgenv().Exploitget = "Unknown Executor | Fully Supported Executors: Synapse,Krnl,Scriptware"
+    getgenv().Numberww = 2419293754
+end
+
+if getgenv().Exploitget == "Krnl" then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/Webhook-Tools/version_krnl'),true))()
+end
+
+if getgenv().Exploitget == "Synapse X" then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/Webhook-Tools/version_synapse'),true))()
+end
+
+if getgenv().Exploitget == "Script-Ware" then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/Webhook-Tools/version_scriptware'),true))()
+end
+
+if getgenv().Exploitget == "Unknown Executor | Fully Supported Executors: Synapse,Krnl,Scriptware" then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/Webhook-Tools/version_random'),true))()
+end
