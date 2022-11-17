@@ -9,6 +9,7 @@ getgenv().AnnounceText3 = "you can't get rewards multiple times. So theres no po
 
 
 --max 6, getgenv().UpdateLogText6 <-- max
-getgenv().UpdateLogText1 = "[+] Added Quest Page (you can complate quests automaticly!)"
+getgenv().UpdateLogText1 = "[+] Added Auto Chest"
 getgenv().UpdateLogText2 = "[+] Added Home Page with Update/Announcement System"
+getgenv().UpdateLogText3 = "[+-] Autofarm Modes Coming Soon"
 
