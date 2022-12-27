@@ -6,7 +6,7 @@ Use:
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/posX/loader.lua'),true))()
 
 
-
+all information:  https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/posX/intro.raw
 
 ]]
 
