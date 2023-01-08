@@ -1,13 +1,24 @@
 --[[
 
+Doomspire Brickbattle AUTOKILL ALL, AUTOFARM KILLS.
+
+
+
+
 DO NOT EXECUTE RAW, IT WONT WORK.
 
 
 EXECUTE THIS:
 
 getgenv().BatusMadeThisShit = true
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/Doomspire%20Brickbattle/main.lua'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/Doomspire%20Brickbattle/autofarm_kills.lua'),true))()
 
+
+
+IF YOU WANT TO STOP IT, EXECUTE THIS:
+
+
+getgenv().BatusMadeThisShit = false
 
 
 
